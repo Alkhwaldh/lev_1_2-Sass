@@ -1,0 +1,29 @@
+
+
+
+$header-footer-color: #7F78D2;
+%header_footer-editing{
+    background-color: $header-footer-color;
+    padding: 1rem;
+   
+    ul {
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    ul li {
+        margin-left: 1em;
+    }
+}
+
+%rahmen{
+    border: 2px solid $header-footer-color ;
+}
+
